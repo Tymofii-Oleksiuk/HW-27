@@ -1,0 +1,47 @@
+.box {
+    display: flex;
+    align-items: center;
+    background: burlywood;
+    height: auto;
+    width: 59px;
+    height: 562px;
+    overflow: hidden;
+}
+
+.box:hover {
+    border-radius: 2px solid black;
+    cursor: auto;
+    margin-left: 123px;
+}
+
+.box:hover .overlay {
+    left: 0;
+}
+
+.box:hover .menu {
+    opacity: 0;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 562px;
+    background: burlywood;
+    left: -184px;
+    position: absolute;
+}
+
+.menu {
+    width: 100%;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+p:hover {
+    color: greenyellow;
+}
+
+body {
+    margin: 0;
+}
